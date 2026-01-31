@@ -83,13 +83,13 @@ Key design choices:
 - focus on ROC-AUC and F1 rather than accuracy
 
 ## 📈 Model Performance Comparison
-<img src="images/model_performance_metrics_comparsion.png" alt="Confusion Matrix" width="1200">
+<img src="images/model_performance_metrics_comparsion.png" alt="Confusion Matrix" width="800">
 All models achieve around ROC-AUC ≈ 0.75, showing good separation between risky and safe customers.
 
 The Decision Tree achieves the best F1 score and is selected as the final model for deployment.
 
 Visual Evaluation (ROC & Confusion Matrix)
-<img src="images/model_performance_visualizations.png" alt="Confusion Matrix" width="800">
+<img src="images/model_performance_visualizations.png" alt="Confusion Matrix" width="1200">
 - ROC curves confirm strong ranking ability well above random guessing.
 - A tuned lower decision threshold increases recall for churners.
 
