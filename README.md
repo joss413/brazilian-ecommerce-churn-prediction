@@ -83,15 +83,13 @@ Key design choices:
 - focus on ROC-AUC and F1 rather than accuracy
 
 ## 📈 Model Performance Comparison
-<img src="images/model_performance_metrics_comparsion.png" alt="Confusion Matrix" width="400">
+<img src="images/model_performance_metrics_comparsion.png" alt="Confusion Matrix" width="1200">
 All models achieve around ROC-AUC ≈ 0.75, showing good separation between risky and safe customers.
 
 The Decision Tree achieves the best F1 score and is selected as the final model for deployment.
 
 Visual Evaluation (ROC & Confusion Matrix)
-
-<img src="images/model_performance_visualizations.png" alt="Confusion Matrix" width="400">
-
+<img src="images/model_performance_visualizations.png" alt="Confusion Matrix" width="800">
 - ROC curves confirm strong ranking ability well above random guessing.
 - A tuned lower decision threshold increases recall for churners.
 
@@ -110,7 +108,7 @@ Approximately 47,000 customers fall into the High-risk bucket.
 This makes the output directly usable by marketing and CRM teams.
 
 Risk Analysis by Customer Segment
-<img src="images/Risk_analysis_by_customer_segement.png" alt="Confusion Matrix" width="400">
+<img src="images/Risk_analysis_by_customer_segement.png" alt="Confusion Matrix" width="800">
 
 Key insights from segment analysis:
 
