@@ -145,9 +145,13 @@ This proves the model is economically beneficial, not just technically accurate.
 The pipeline demonstrates a full production-style loop:
 
 1.Load raw data from database tables
+
 2.Engineer ML features inside the data platform
+
 3.Train models and generate churn probabilities
+
 4.Save predictions back to database tables
+
 5.Query predictions via SQL for dashboards and decisions
 
 This makes the solution repeatable, auditable, and deployment-ready.
@@ -157,9 +161,13 @@ This makes the solution repeatable, auditable, and deployment-ready.
 The workflow is organised as sequential notebooks:
 
 1.Raw data ingestion (Bronze)
+
 2.Cleaning and customer 360 (Silver)
+
 3.Feature engineering (Gold)
+
 4.Model training and churn scoring
+
 5.Business dashboards and ROI analysis
 
 Running the pipeline end-to-end rebuilds everything from raw data to final churn insights.
@@ -176,5 +184,7 @@ Running the pipeline end-to-end rebuilds everything from raw data to final churn
 ## 👨‍💻 Author
 
 Yoseph Negash
+
 📧 yosephn22@gmail.com
+
 📅 2026
