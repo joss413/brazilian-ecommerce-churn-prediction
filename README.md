@@ -117,6 +117,7 @@ Key insights from segment analysis:
 - enables targeted, segment-specific retention strategies instead of one-size-fits-all campaigns
 
 ## 📊 Churn Dashboard & Geographic Insights
+<img src="images/Churn_dashboard.png" alt="Confusion Matrix" width="800">
 
 SQL dashboards provide:
 
